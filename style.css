@@ -619,6 +619,19 @@ body {
   /* background-color: red; */
   margin: auto;
   display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.grup1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grup2 {
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -693,11 +706,13 @@ body {
 /* -------------------------CONTAINER 5--------------- */
 
 .con-5 {
-  height: 150vh;
+  height: 100vh;
+  padding-top: 100px;
   background-image: url(assets/background-5.png);
   background-size: cover;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .title-con-5 {
@@ -740,4 +755,204 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 400;
+}
+
+.con-lingkaran {
+  margin: auto;
+  /* margin-top: 50px; */
+  padding-bottom: 50px;
+  width: 80%;
+  height: 500px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.con-elipse-1 {
+  height: 500px;
+  /* background-color: #211e2e; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img-elips-1 {
+  width: 198px;
+  height: 198px;
+  background-image: url(assets/belakang-bulet.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.elipse-dalem {
+  width: 159px;
+  height: 159px;
+  border-radius: 100%;
+  background: linear-gradient(to right, #c0b7e8, #8176af);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.elipse-dalem h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.teks {
+  display: flex;
+  align-items: center;
+}
+
+.img-teks {
+  width: 40px;
+  height: 50px;
+  /* background-color: aqua; */
+}
+
+.img-teks img {
+  width: 100%;
+  height: 100%;
+}
+
+.paragraf {
+  max-width: 150px;
+}
+
+.paragraf p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: white;
+  font-weight: 700;
+}
+
+.con-elipse-2 {
+  height: 500px;
+  /* background-color: #211e2e; */
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img-elips-2 {
+  width: 198px;
+  height: 198px;
+  /* margin-left: 100px; */
+  background-image: url(assets/belakang-bulet.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.con-elipse-3 {
+  height: 500px;
+  /* background-color: #211e2e; */
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img-elips-3 {
+  width: 198px;
+  height: 198px;
+  /* margin-left: 100px; */
+  background-image: url(assets/belakang-bulet.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.con-elipse-4 {
+  height: 500px;
+  /* background-color: #211e2e; */
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img-elips-4 {
+  width: 198px;
+  height: 198px;
+  /* margin-left: 100px; */
+  background-image: url(assets/belakang-bulet.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ------------------CONTAINER-6--------------------- */
+
+.con-6 {
+  height: 100vh;
+  padding-top: 100px;
+}
+
+.box {
+  margin: auto;
+  width: 70%;
+  height: 800px;
+  border-radius: 100px;
+  background: radial-gradient(#403a5f, #211e2e);
+}
+
+.con-title-6 {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.title-con-6 {
+  padding-top: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  color: white;
+  font-weight: 700;
+}
+
+.small-title {
+  /* padding-top: 50px; */
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  color: white;
+  font-weight: 300;
+}
+
+.box-1 {
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  margin-top: 50px;
+  background-color: aqua;
+}
+
+.con-box-1 {
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.con-box-1 input {
+  background-color: transparent;
+  border-radius: 40px;
+  width: 350px;
+  height: 40px;
+}
+
+.input-atas {
+  margin-bottom: 20px;
+}
+.input-bawah {
+  margin-bottom: 20px;
 }
